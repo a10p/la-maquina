@@ -1,0 +1,32 @@
+{
+  "name": "typography-theme-maquina",
+  "description": "A theme for Typography.js. Nunito Sans for headings and Roboto for blocks of text",
+  "version": "0.1.0",
+  "author": "a10p <dpatelierdigital@gmail.com>",
+  "dependencies": {
+    "compass-vertical-rhythm": "^1.2.1",
+    "gray-percentage": "^2.0.0",
+    "typography-breakpoint-constants": "^0.16.19"
+  },
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/a10p/maquina",
+  "bugs": {
+    "url": "https://github.com/a10p/maquina/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a10p/maquina.git"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "../../node_modules/.bin/babel src --out-dir dist/",
+    "flow": "../../node_modules/.bin/flow",
+    "lint": "../../node_modules/.bin/eslint --ext .js,.jsx --ignore-path .gitignore .",
+    "watch": "../../node_modules/.bin/babel -w src --out-dir dist/"
+  }
+}
